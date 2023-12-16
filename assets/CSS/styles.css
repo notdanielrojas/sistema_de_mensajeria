@@ -5,7 +5,6 @@
 
 body {
   box-sizing: border-box;
-  font-family: "Roboto", "Open Sans", sans-serif;
 }
 
 .general {
@@ -26,6 +25,7 @@ body {
   border: 1px solid #e8ebe4;
   box-sizing: border-box;
   width: 100%;
+  height: 100%;
   padding: 1em 1em 1em 3.6em;
 }
 
@@ -76,6 +76,7 @@ body {
   border: 1px solid #e8ebe4;
   box-sizing: border-box;
   width: 100%;
+  height: 100%;
 }
 
 .nuevo-chat button p {
@@ -102,6 +103,7 @@ body {
 .chats {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
 }
@@ -120,8 +122,10 @@ body {
 .chat-info {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   padding-left: 2em;
   width: 100%;
+  height: 100%;
 }
 
 .nombre {
@@ -149,7 +153,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-basis: 75%;
-  background-color: #fff;
+  background-color: #f9f9fa;
 }
 
 .logo-mano {
