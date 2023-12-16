@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  
+}
+
+.general {
+  display: flex;
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  flex-basis: 25%;
+}
+
+.estado-usuario {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e8ebe4;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em 1em 1em 4em;
+}
+
+.datos-usuario {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.estado {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  
+}
+
+.logo-usuario {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.logo-usuario:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1em;
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.nuevo-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 1px solid #e8ebe4;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.nuevo-chat button p {
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.nuevo-chat button {
+  width: 300px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  background-color: #a491d2;
+}
+
+.nuevo-chat button:hover {
+  background-color: #CDC3E6;
+}
+
+.nuevo-chat button:focus {
+  background-color: #bec1bb;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  
+}
+.chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e8ebe4;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  color: #444749;
+}
+
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+  width: 100%;
+}
+
+.nombre {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.mensaje {
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+.chat-logo {
+  display: flex;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 3em;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.chat-logo:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 75%;
+  background-color: #fff;
+}
+
+.logo-mano {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+ }
+
+.titulo {
+  margin-top: 1em;
+  font-size: 45px;
+  font-family: 'Roboto';
+  color: #444749;
+}
+
+.parrafo {
+  font-size: 16px;
+  font-weight: lighter;
+  width: 35%;
+  text-align: center;
+  font-family: 'Open Sans';
+  color: #444749;
+}
+
+.parrafo span {
+  font-weight: bold;
+}
