@@ -146,13 +146,7 @@ body {
   border-radius: 50%;
   margin-left: 3em;
   object-fit: contain;
-  transition: 0.3s;
-}
-
-.chat-logo:hover {
-  scale: 1.1;
-  transition: 0.3s;
-}
+ }
 
 .principal {
   display: flex;
