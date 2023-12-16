@@ -29,24 +29,24 @@ body {
   border: 1px solid #e8ebe4;
   box-sizing: border-box;
   width: 100%;
-  padding: 1em 1em 1em 4em;
+  padding: 1em 1em 1em 3.6em;
 }
 
 .datos-usuario {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
+  
 }
 
 .estado {
   font-family: 'Open Sans';
-  font-size: 16px;
+  font-size: 13px;
   
 }
 
 .logo-usuario {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   transition: 0.3s;
 }
@@ -67,7 +67,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-right: 20px;
+  padding-right: 45px;
 }
 
 .nuevo-chat {
@@ -88,7 +88,7 @@ body {
 }
 
 .nuevo-chat button {
-  width: 300px;
+  width: 290px;
   height: 50px;
   color: #fff;
   border: none;
