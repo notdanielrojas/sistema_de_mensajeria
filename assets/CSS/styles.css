@@ -1,12 +1,13 @@
+/* Propiedad universal */
 * {
   margin: 0;
   padding: 0;
 }
-
+/* Contenedor Principal */
 .general {
   display: flex;
 }
-
+/* Sección Contactos */
 .contactos {
   display: flex;
   flex-direction: column;
@@ -14,7 +15,7 @@
   min-height: 100vh;
   flex: 0 0 25%;
 }
-
+/* Sección superior usuario */
 .estado-usuario {
   display: flex;
   justify-content: space-between;
@@ -24,32 +25,12 @@
   height: 100%;
   padding: 1em 1em 1em 3.6em;
 }
-
+/* Logo, nombre y actividad de usuario*/
 .datos-usuario {
   display: flex;
   align-items: center;
 }
-
-.nombre-usuario {
-  font-family: "Roboto";
-  font-size: 19px;
-  padding-left: 0.2em;
-  color: #1b1f21;
-}
-
-.actividad-usuario {
-  font-family: "Open Sans";
-  font-size: 13px;
-  color: #1b1f21;
-}
-
-.usuario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 1em;
-}
-
+/* Logo de usuario */
 .logo-usuario {
   margin-top: 0.625em;
   width: 60px;
@@ -57,19 +38,39 @@
   border-radius: 50%;
   transition: 0.3s;
 }
-
+/* Comportamiendo logo de usuario en hover */
 .logo-usuario:hover {
   scale: 1.1;
   transition: 0.3s;
 }
-
+/* Nombre y actividad de usuario */
+.usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1em;
+}
+/* Nombre de usuario */
+.nombre-usuario {
+  font-family: "Roboto";
+  font-size: 19px;
+  padding-left: 0.2em;
+  color: #1b1f21;
+}
+/* Actividad de usuario */
+.actividad-usuario {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #1b1f21;
+}
+/* Icóno de chat y navegación */
 .iconos {
   display: flex;
   align-items: center;
   gap: 20px;
   padding-right: 45px;
 }
-
+/* Sección botón nuevo chat */
 .nuevo-chat {
   display: flex;
   flex-direction: column;
@@ -82,12 +83,12 @@
   width: 100%;
   height: 100%;
 }
-
+/* Texto botón nuevo chat */
 .nuevo-chat button p {
   font-size: 20px;
   font-family: "Roboto";
 }
-
+/* Botón nuevo chat */
 .nuevo-chat button {
   width: 290px;
   height: 50px;
@@ -95,15 +96,15 @@
   border: none;
   background-color: #a491d2;
 }
-
+/* Botón nuevo chat en hover */
 .nuevo-chat button:hover {
   background-color: #cdc3e6;
 }
-
+/* Botón nuevo chat al hacer click */
 .nuevo-chat button:focus {
   background-color: #bec1bb;
 }
-
+/* Sección de chats */
 .chats {
   display: flex;
   flex-direction: column;
@@ -111,7 +112,7 @@
   width: 100%;
   height: 100%;
 }
-
+/* Ventana de chat pequeña */
 .chat {
   display: flex;
   justify-content: center;
@@ -122,7 +123,7 @@
   width: 100%;
   height: 100%;
 }
-
+/* Logo de contacto en chat */
 .chat-logo {
   display: flex;
   min-width: 60px;
@@ -130,7 +131,7 @@
   border-radius: 50%;
   margin-left: 3em;
 }
-
+/* Información de contacto en chat */
 .chat-info {
   display: flex;
   flex-direction: column;
@@ -141,19 +142,19 @@
   width: 100%;
   height: 100%;
 }
-
+/* Nombre de contacto en chat */
 .nombre-chat {
   font-family: "Roboto";
   font-size: 20px;
   color: #1b1f21;
 }
-
+/* Último mensaje de contacto en chat */
 .mensaje-chat {
   font-family: "Open Sans";
   font-size: 14px;
   color: #1b1f21;
 }
-
+/* Sección principal */
 .principal {
   display: flex;
   flex-direction: column;
@@ -162,20 +163,20 @@
   flex-basis: 75%;
   background-color: #f9f9fa;
 }
-
+/* Logo principal */
 .logo-mano {
   width: 300px;
   height: 300px;
   border-radius: 10%;
 }
-
+/* Título sección principal */
 .titulo {
   margin-top: 1em;
   font-size: 45px;
   font-family: "Roboto";
   color: #444749;
 }
-
+/* Párrafo sección principal */
 .parrafo {
   font-size: 16px;
   font-weight: lighter;
@@ -184,7 +185,7 @@
   font-family: "Open Sans";
   color: #444749;
 }
-
+/* Párrafo en negrita sección principal */
 .parrafo span {
   font-weight: bold;
 }
