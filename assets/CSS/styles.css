@@ -1,13 +1,11 @@
 * {
   margin: 0;
   padding: 0;
- 
 }
 
 body {
   box-sizing: border-box;
   font-family: "Roboto", "Open Sans", sans-serif;
-  
 }
 
 .general {
@@ -18,9 +16,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
   min-height: 100vh;
-  flex-basis: 25%;
+  flex: 0 0 25%;
 }
 
 .estado-usuario {
@@ -35,14 +32,12 @@ body {
 .datos-usuario {
   display: flex;
   justify-content: center;
-  
 }
 
 .estado {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: lighter;
   font-size: 13px;
-  
 }
 
 .usuario {
@@ -85,7 +80,7 @@ body {
 
 .nuevo-chat button p {
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .nuevo-chat button {
@@ -97,7 +92,7 @@ body {
 }
 
 .nuevo-chat button:hover {
-  background-color: #CDC3E6;
+  background-color: #cdc3e6;
 }
 
 .nuevo-chat button:focus {
@@ -109,7 +104,6 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  
 }
 .chat {
   display: flex;
@@ -131,12 +125,12 @@ body {
 }
 
 .nombre {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 20px;
 }
 
 .mensaje {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 14px;
 }
 
@@ -147,7 +141,7 @@ body {
   border-radius: 50%;
   margin-left: 3em;
   object-fit: contain;
- }
+}
 
 .principal {
   display: flex;
@@ -162,12 +156,12 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 10%;
- }
+}
 
 .titulo {
   margin-top: 1em;
   font-size: 45px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #444749;
 }
 
@@ -176,7 +170,7 @@ body {
   font-weight: lighter;
   width: 35%;
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   color: #444749;
 }
 
