@@ -40,8 +40,16 @@ body {
 
 .estado {
   font-family: 'Open Sans';
+  font-weight: lighter;
   font-size: 13px;
   
+}
+
+.usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1em;
 }
 
 .logo-usuario {
@@ -54,13 +62,6 @@ body {
 .logo-usuario:hover {
   scale: 1.1;
   transition: 0.3s;
-}
-
-.usuario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 1em;
 }
 
 .iconos {
